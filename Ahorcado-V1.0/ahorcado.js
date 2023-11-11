@@ -145,3 +145,4 @@ while (volverAjugar == true) {
         console.log(`Partidas ganadas(${partGanadasPor}%):\t${partidasGanadas}`);       // Porcentaje de partidas ganadas
         console.log(`Partidas perdidas(${partPerdidasPor}%):\t${partodasPerdidas}`);    // Porcentaje de partidas perdidas
     }
+}
