@@ -23,6 +23,7 @@ while (volverAjugar == true) {
             estadisticas();
         }else{
             if (opciones === 3) {    // Salir
+                // Mensajes de salida
                 console.log("Saliste del juego");
                 alert("Saliste del juego");
             }
@@ -144,4 +145,3 @@ while (volverAjugar == true) {
         console.log(`Partidas ganadas(${partGanadasPor}%):\t${partidasGanadas}`);       // Porcentaje de partidas ganadas
         console.log(`Partidas perdidas(${partPerdidasPor}%):\t${partodasPerdidas}`);    // Porcentaje de partidas perdidas
     }
-}
