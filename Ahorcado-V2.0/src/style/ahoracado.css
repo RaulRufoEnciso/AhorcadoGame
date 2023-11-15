@@ -1,0 +1,13 @@
+.abecedario > div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    margin: 5px;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .abecedario > div:hover {
+    width: 45px;
+    height: 45px;
+    background-color: darkgray;
+  }

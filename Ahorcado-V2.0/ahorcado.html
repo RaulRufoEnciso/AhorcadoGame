@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="ahoracado.css">
-    <script src="ahorcado.js"></script>
+    <title>ahorcado</title>
+    <script src="./src/js/ahorcado.js"></script>
+    <link rel="stylesheet" type="text/css" href="./src/style/ahoracado.css">
+
 </head>
 <body>
     <nav>
-        <button onclick="ahorcado()">Iniciar juego</button>
-        <button onclick="estadisticas()">Estadisticas</button>
-        <button onclick="exit()">Salir</button>
+        <button onclick="desplegarLetras()">Iniciar juego</button>
+        <button onclick="abrirEstadisticas()">Estadisticas</button>
     </nav>
-    <section>
-        <p>Muñecajo</p>
-    </section>
-    <section>
-        <p>Letras</p>
-    </section>
-    
+
+    <div id="ahorcadoGame"></div>
+    <img src="./src/img/penjat_0.png" id="imgAhorcado"/>
+    <div id="palabra"></div>
+    <div id="abecedario"></div>
+    <div id="lletresUtilitzades"></div>
+    <p id = "mensajeFinal"></p>
+
 </body>
 </html>
